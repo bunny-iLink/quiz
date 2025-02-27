@@ -8,7 +8,6 @@ async function hashInput(input) {
     .join("");
 }
 
-// Render pages based on the URL hash
 function renderPage() {
   const app = document.getElementById("app");
   const route = window.location.hash.substring(1) || "home";
@@ -28,7 +27,6 @@ function renderPage() {
   }
 }
 
-// Setup form submission and validation
 function setupForm() {
   const form = document.getElementById("challenge-form");
   form.addEventListener("submit", async function (e) {
@@ -40,11 +38,10 @@ function setupForm() {
     const hash1 = await hashInput(answer1);
     const hash2 = await hashInput(answer2);
 
-    // Hardcoded correct answers' hashes
     const correctHash1 =
-      "5e884898da28047151d0e56f8dc6292773603d0d6aabbdd62a11ef721d1542d8"; // "password"
+      "5e884898da28047151d0e56f8dc6292773603d0d6aabbdd62a11ef721d1542d8"; 
     const correctHash2 =
-      "5c2c7671b9f6c4242ba2d4c141c81293c3a2b2be5871181bbe30f0eb7ebedcef"; // Example Hash
+      "5c2c7671b9f6c4242ba2d4c141c81293c3a2b2be5871181bbe30f0eb7ebedcef"; 
 
     if (hash1 === correctHash1 && hash2 === correctHash2) {
       sessionStorage.setItem("accessGranted", "true");
@@ -55,7 +52,6 @@ function setupForm() {
   });
 }
 
-// Routes (HTML content as template literals)
 const routes = {
   home: `
         <div class="main-container">
