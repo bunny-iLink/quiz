@@ -67,7 +67,10 @@ const routes = {
                     
                     <div class="question-block">
                         <h4 class="question-title">Question 1:</h4>
-                        <p>Analyze the SAM file to uncover my password:</p>
+                        <p>Uh-oh! 😱 It seems like I’ve accidentally exposed my SAM file.
+                            That makes it pretty easy for you to break into my system, right?
+                            Well, go ahead—analyze it and uncover my password... if you can!
+                        </p>
                         <div class="encrypted-message">
                             <p>Administrator:500:aad3b435b51404eeaad3b435b51404ee:8846f7eaee8fb117ad06bdd830b7586c:::</p>
                             <p>Guest:501:aad3b435b51404eeaad3b435b51404ee:31d6cfe0d16ae931b73c59d7e0c089c0:::</p>
@@ -99,6 +102,8 @@ const routes = {
                         <div class="encrypted-message">
                             <h4 className="encrypted-title">🔐 Encrypted Message:</h4>
                             <p className="code-block">ho5EGS/lcZVbi356eTdU25IyDHDMExHCY7bToLn/X/SYkK8e5Kd8Tad1oIviy1PP474jVc1KEOKLvjdO9druis982OsiBgn1C4R0pZLf62WeD5cKabuK7A==</p>
+                        </div>
+                        <div class="encrypted-message">
                             <h4 className="encrypted-title">🔑 KEYS</h4>
                             <pre className="code-block">A7F3D9B26C8E41G5H2J0KLMNQPZXYTUV</pre>
                             <pre className="code-block">X5ZP3Q1J9G7H2V8LMBK0N6C4YADTFUWE</pre>
