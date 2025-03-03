@@ -18,7 +18,7 @@ function setupForm() {
     const answer2 = document.getElementById("answer2").value;
 
     try {
-      const response = await fetch("https://f876f85a-ab4f-47d5-bb20-a50c6184d051-00-vhbbq7h01n78.sisko.replit.dev:8080/", {
+      const response = await fetch("https://f876f85a-ab4f-47d5-bb20-a50c6184d051-00-vhbbq7h01n78.sisko.replit.dev/verify", {
         // Replace with your actual Replit URL
         method: "POST",
         headers: {
