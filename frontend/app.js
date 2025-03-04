@@ -67,26 +67,19 @@ const routes = {
                             <p>WDAGUtilityAccount:504:aad3b435b51404eeaad3b435b51404ee:a5b13b3e4632e2708acafaab9c73ee2c:::</p>
                             <p>ankush:1001:aad3b435b51404eeaad3b435b51404ee:8846f7eaee8fb117ad06bdd830b7586c:::</p>
                         </div>
-                        <input type="password" id="answer1" placeholder="First answer" class="input-field"/>
+                        <input type="password" id="answer1" placeholder="Cracked password" class="input-field"/>
                     </div>
 
                     <div class="question-block">
                         <h4 class="question-title">Question 2:</h4>
                         <p>
-                            You have been selected as a Cyber Security Intern at RAW, the
-                            intelligence agency of the Government of India. During a recent
-                            surveillance operation, RAW intercepted network traffic linked to
-                            a suspected terrorist group.
+                            It was a huge mistake by me for giving out my SAM file content. I have compromised my privacy and everything else.
                         </p>
                         <p>
-                            These terrorists were using a communication channel over Whatsapp
-                            for all their work. Since Whatsapp employs end-to-end encryption,
-                            we are unable to figure out the messages.
+                            My WhatsApp chats with a closed one are being leaked but thanks to Meta for deploying end-to-end encryption. They are not easily accessible. 
                         </p>
                         <p>
-                            Luckily, one of our agent was able to capture some keys. The
-                            Director at RAW wants the interns to work around and find the
-                            messages. Get to work and help RAW secure the nation
+                            I believe you are a good one and won't leak my chats after decrypting it 🥺. Thank you for understanding.... 
                         </p>
                         <div class="encrypted-message">
                             <h4 className="encrypted-title">🔐 Encrypted Message:</h4>
@@ -105,7 +98,7 @@ const routes = {
                             <pre className="code-block">X3G7H2V8LMBK0N6C4YADTFUWE5ZP1J9Q</pre>
                             <pre className="code-block">A7F3D9B26C8E41G5H2J0KLMNQPZXYTUV</pre>
                         </div>
-                        <input type="password" id="answer2" placeholder="Second answer" class="input-field"/>
+                        <input type="password" id="answer2" placeholder="Decrypted chat" class="input-field"/>
                     </div>
 
                     <button type="submit" class="submit-button">Submit</button>
